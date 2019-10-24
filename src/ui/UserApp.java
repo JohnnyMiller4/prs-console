@@ -64,7 +64,7 @@ public class UserApp {
 				phoneNumber = Console.getString("Phone Number: ");
 				email = Console.getString("E-mail: ");
 				isReviewer = Console.getInt("Is this user a reviewer? (0=no, 1=yes): ", -1, 2);
-				isAdmin = Console.getInt("Is this new user an admin? (0=no, 1=yes)", -1, 2);
+				isAdmin = Console.getInt("Is this new user an admin? (0=no, 1=yes): ", -1, 2);
 				
 				User newUser = new User(id, username, password, firstName, lastName, phoneNumber,
 						email, isReviewer, isAdmin);
